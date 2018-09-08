@@ -1,6 +1,6 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
-	id        = "com.binarysoft.emumap"
+	id        = "com.payall.ng"
 	versionCode="1"
 	version   = "1.2.6">
 	<preference name="phonegap-version" value="cli-6.5.0"/>
