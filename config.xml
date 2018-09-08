@@ -106,7 +106,19 @@
 	
 	
  
-  <splash src="splash.png" />
+  <splash src="splash.gif" />
+  <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="images/splash.gif" density="land-hdpi"/>
+    <splash src="images/splash.gif" density="land-ldpi"/>
+    <splash src="images/splash.gif" density="land-mdpi"/>
+    <splash src="images/splash.gif" density="land-xhdpi"/>
+
+    <splash src="images/splash.gif" density="port-hdpi"/>
+    <splash src="images/splash.gif" density="port-ldpi"/>
+    <splash src="images/splash.gif" density="port-mdpi"/>
+    <splash src="images/splash.gif" density="port-xhdpi"/>
+</platform>
 
 
 
