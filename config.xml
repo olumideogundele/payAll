@@ -33,7 +33,10 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-	<preference name="ErrorUrl" value="index.html" />
+	<preference name="ErrorUrl" value="error.html" />]
+	<preference name="SplashMaintainAspectRatio" value="true" />
+<preference name="SplashShowOnlyFirstTime" value="true" />
+<preference name="SplashScreenSpinnerColor" value="white" />
 
 	<preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="10" />
