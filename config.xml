@@ -2,7 +2,7 @@
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.binarysoft.emumap"
 	versionCode="1"
-	version   = "1.0.0">
+	version   = "1.2.6">
 	<preference name="phonegap-version" value="cli-6.5.0"/>
 
     <plugin name="cordova-plugin-whitelist" source="npm" />
@@ -33,7 +33,7 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-	<preference name="ErrorUrl" value="error.html" />
+	<preference name="ErrorUrl" value="index.html" />
 
 	<preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="10" />
@@ -107,18 +107,6 @@
 	
  
   <splash src="splash.gif" />
-  <platform name="android">
-    <!-- you can use any density that exists in the Android project -->
-    <splash src="images/splash.gif" density="land-hdpi"/>
-    <splash src="images/splash.gif" density="land-ldpi"/>
-    <splash src="images/splash.gif" density="land-mdpi"/>
-    <splash src="images/splash.gif" density="land-xhdpi"/>
-
-    <splash src="images/splash.gif" density="port-hdpi"/>
-    <splash src="images/splash.gif" density="port-ldpi"/>
-    <splash src="images/splash.gif" density="port-mdpi"/>
-    <splash src="images/splash.gif" density="port-xhdpi"/>
-</platform>
 
 
 
