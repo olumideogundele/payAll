@@ -103,7 +103,7 @@
 
 
  
-	
+	   <preference name="ShowSplashScreenSpinner" value="true"/>
 	
  
   <splash src="images/image.jpg" />
