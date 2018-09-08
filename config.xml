@@ -2,7 +2,7 @@
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.binarysoft.emumap"
 	versionCode="1"
-	version   = "1.2.6">
+	version   = "1.0.0">
 	<preference name="phonegap-version" value="cli-6.5.0"/>
 
     <plugin name="cordova-plugin-whitelist" source="npm" />
@@ -33,7 +33,7 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-	<preference name="ErrorUrl" value="index.html" />
+	<preference name="ErrorUrl" value="error.html" />
 
 	<preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="10" />
